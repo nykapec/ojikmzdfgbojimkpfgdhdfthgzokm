@@ -69,7 +69,7 @@ namespace Program21
             }
             
             Console.WriteLine("Вектор D");// матриця д
-            Console.Write("\n ");
+            
 
             for (i = 0; i < 3; i++)
             {

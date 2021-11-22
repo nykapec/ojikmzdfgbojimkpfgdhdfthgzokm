@@ -12,7 +12,7 @@ namespace Program21
         {
 
             int n, m, i, j;
-            int num, sum, buk, old;
+            int a, c, b, d;
             int[,] A = new int[4, 4]; // вхідні дані
             int[,] B = new int[3, 3];
             int[] vecC = new int[4];
@@ -30,8 +30,8 @@ namespace Program21
             {
                 for (m = 0; m < 4; m++)
                 {
-                    num = random1.Next(1, 11);
-                    A[n, m] = Convert.ToInt32(num);
+                    a = random1.Next(1, 11);
+                    A[n, m] = Convert.ToInt32(a);
                 }
             }
             for (n = 0; n < 4; n++)
@@ -46,8 +46,8 @@ namespace Program21
             {
                 for (j = 0; j < 3; j++)
                 {
-                    buk = random3.Next(1, 11);
-                    B[i, j] = Convert.ToInt32(buk);
+                    b = random3.Next(1, 11);
+                    B[i, j] = Convert.ToInt32(b);
                 }
             }
             for (i = 0; i < 3; i++)
@@ -60,8 +60,8 @@ namespace Program21
 
             for (n = 0; n < 4; n++)
             {
-                sum = random2.Next(1, 11);
-                vecC[n] = Convert.ToInt32(sum);
+                c = random2.Next(1, 11);
+                vecC[n] = Convert.ToInt32(c);
             }
             for (n = 0; n < 4; n++)
             {
@@ -73,8 +73,8 @@ namespace Program21
 
             for (i = 0; i < 3; i++)
             {
-                old = random4.Next(1, 11);
-                vecD[i] = Convert.ToInt32(old);
+                d = random4.Next(1, 11);
+                vecD[i] = Convert.ToInt32(d);
             }
             for (i = 0; i < 3; i++)
             {
@@ -110,3 +110,4 @@ namespace Program21
         }
     }
 }
+
